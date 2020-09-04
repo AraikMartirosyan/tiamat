@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://kit.fontawesome.com/34cb1cb8c7.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700;900&family=Roboto:wght@900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="row d-flex mb-2 justify-content-between">
+                <div class="col-xl-6 col-lg-3 col-md-4 col-sm-5 col-8 logo">
+
+                    <img class="logo__img" src="img/logo.png" alt="">
+                    <span class="logo__text ">Акриловые герметики,клеи, наливные полы
+                        для автомобилей, строек и промышленности</span>
+
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-4 
+                search">
+                    <input class="search__input" type="search" placeholder="Поиск по товарам">
+                    <a href="#" class="search__btn"><i class="fas fa-search search__icon"></i></a>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-2 col-3">
+                    <a href="tel:+78312140614" class="phone">
+                        <i class="fas fa-phone-alt phone__icon"></i>
+                        <div class="phone__content">
+                            <span class="phone__number">+7 831 214 06 14</span>
+                            <span class="phone__text">Заказать обратный звонок</span>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+
+
+
+            <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12">
+                    <nav class="menu" id="menu">
+                        <button href="#" class="dropdown  dropbtn">
+                            <i class="fas fa-bars"></i>
+                            Каталог товаров
+                        </button>
+                        <div>
+                            <button onclick="myFunction()" class="dropdown menu__burger dropbtn">
+                                Меню
+                                <i class="fas fa-bars"></i>
+                                <div id="myDropdown" class="dropdown-content">
+                                    <a href="#">Бренды</a>
+                                    <a href="#">О компании</a>
+                                    <a href="#">Технология</a>
+                                    <a href="#">Акции</a>
+                                    <a href="#">Доставка и оплата</a>
+                                    <a href="#">Советы</a>
+                                    <a href="#">Контакты</a>
+                                    <a href="#"><i class="fas fa-user"></i></a>
+                                    <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                            </button>
+                        </div>
+                        <a href="#" class="menu__item">Бренды</a>
+                        <a href="#" class="menu__item">О компании</a>
+                        <a href="#" class="menu__item">Технология</a>
+                        <a href="#" class="menu__item">Акции</a>
+                        <a href="#" class="menu__item">Доставка и оплата</a>
+                        <a href="#" class="menu__item">Советы</a>
+                        <a href="#" class="menu__item">Контакты</a>
+                        <a href="#" class="menu__item"><i class="fas fa-user"></i></a>
+                        <a href="#" class="menu__item"><i class="fas fa-shopping-cart"></i></a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="intro">
+        <div class="container">
+            <div class="intro__inner">
+                <div class="intro__slider text-center">
+
+                    <div class="row">
+                        <div class="slider__item d-flex">
+                            <div class="wrap">
+
+                            </div>
+                            <div class="col-xl-7">
+                                <h1 class="intro__title">Акриловый герметик<h3 class="intro__subtitle">для
+                                        деревянных
+                                        домов и бань</h3>
+                                </h1>
+                                <div class="chips">
+                                    <div class="chips__item">
+                                        <i class="fas fa-ruler-combined"></i>
+                                        <span>
+                                            Хорошая адгезия к
+                                            дереву, кирпичу и бетону
+                                        </span>
+                                    </div>
+                                    <div class="chips__item">
+                                        <i class="far fa-snowflake"></i>
+                                        <span>
+                                            Можно наносить при -10,
+                                            и на влажную стену.
+                                        </span>
+                                    </div>
+                                </div>
+                                <span class="intro__price">от <b>290</b> руб/кг</span>
+                            </div>
+                            <div class="col-xl-5 rel">
+                                <img class="intro__img" src="img/intro-img.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="slider__item d-flex">
+                            <div class="col-xl-7">
+                                <h1 class="intro__title">Акриловый герметик<h3 class="intro__subtitle">для
+                                        деревянных
+                                        домов и бань</h3>
+                                </h1>
+                                <div class="chips">
+                                    <div class="chips__item">
+                                        <i class="fas fa-ruler-combined"></i>
+                                        <span>
+                                            Хорошая адгезия к
+                                            дереву, кирпичу и бетону
+                                        </span>
+                                    </div>
+                                    <div class="chips__item">
+                                        <i class="far fa-snowflake"></i>
+                                        <span>
+                                            Можно наносить при -10,
+                                            и на влажную стену.
+                                        </span>
+                                    </div>
+                                </div>
+                                <span class="intro__price">от <b>290</b> руб/кг</span>
+                            </div>
+                            <div class="col-xl-5 rel">
+                                <img class="intro__img" src="img/intro-img.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bestseller">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="section__header">
+                        <div class="section__title">
+                            <i class="fas fa-bolt"><span>Хиты продаж</span></i>
+                        </div>
+                        <a href="#" class="main__btn">Все товары</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="bestseller-slider">
+
+                        <div class="cards__item">
+                            <div class="wrap">
+                                <img class="cards__img" src="img/bestseller-img.png" alt="">
+                                <div class="cards__container">
+                                    <h5 class="cards__title">
+                                        Герметик акриловый для дерева Tiamat A-125, 300 мл. картридж
+                                    </h5>
+                                    <div class="cards__price">1200 руб/шт</div>
+                                    <div class="cards__btn">Подробнее</div>
+                                    <div class="cards__text">Доступно 13 цветов</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="cards__item">
+                            <div class="wrap">
+                                <img class="cards__img" src="img/bestseller-img.png" alt="">
+                                <div class="cards__container">
+                                    <h5 class="cards__title">
+                                        Герметик акриловый для дерева Tiamat A-125, 300 мл. картридж
+                                    </h5>
+                                    <div class="cards__price">1200 руб/шт</div>
+                                    <div class="cards__btn">Подробнее</div>
+                                    <div class="cards__text">Доступно 13 цветов</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="cards__item">
+                            <div class="wrap">
+                                <img class="cards__img" src="img/bestseller-img.png" alt="">
+                                <div class="cards__container">
+                                    <h5 class="cards__title">
+                                        Герметик акриловый для дерева Tiamat A-125, 300 мл. картридж
+                                    </h5>
+                                    <div class="cards__price">1200 руб/шт</div>
+                                    <div class="cards__btn">Подробнее</div>
+                                    <div class="cards__text">Доступно 13 цветов</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="cards__item">
+                            <div class="wrap">
+                                <img class="cards__img" src="img/bestseller-img.png" alt="">
+                                <div class="cards__container">
+                                    <h5 class="cards__title">
+                                        Герметик акриловый для дерева Tiamat A-125, 300 мл. картридж
+                                    </h5>
+                                    <div class="cards__price">1200 руб/шт</div>
+                                    <div class="cards__btn">Подробнее</div>
+                                    <div class="cards__text">Доступно 13 цветов</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="cards__item">
+                            <div class="wrap">
+                                <img class="cards__img" src="img/bestseller-img.png" alt="">
+                                <div class="cards__container">
+                                    <h5 class="cards__title">
+                                        Герметик акриловый для дерева Tiamat A-125, 300 мл. картридж
+                                    </h5>
+                                    <div class="cards__price">1200 руб/шт</div>
+                                    <div class="cards__btn">Подробнее</div>
+                                    <div class="cards__text">Доступно 13 цветов</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="cards__item">
+                            <div class="wrap">
+                                <img class="cards__img" src="img/bestseller-img.png" alt="">
+                                <div class="cards__container">
+                                    <h5 class="cards__title">
+                                        Герметик акриловый для дерева Tiamat A-125, 300 мл. картридж
+                                    </h5>
+                                    <div class="cards__price">1200 руб/шт</div>
+                                    <div class="cards__btn">Подробнее</div>
+                                    <div class="cards__text">Доступно 13 цветов</div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="category">
+        <div class="container">
+            <div class="section__header">
+                <div class="section__title">
+                    <i class="fas fa-money-check-alt"><span>Популярные категории</span></i>
+                </div>
+                <a href="#" class="main__btn">Все товары</a>
+            </div>
+
+
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="category-slider">
+
+                        <div class="category__item">
+                            <div class="category__content">
+                                <h4 class="category__title">Для строек</h4>
+                                <div class="category__text">Lorem ipsum dolor sit amet.</div>
+                                <a class="details" href="#">Подробнее</a>
+                            </div>
+                            <img src="img/const-cat-img.png" alt="" class="category__img">
+                        </div>
+
+
+                        <div class="category__item">
+                            <h4 class="category__title">Для промышленности</h4>
+                            <div class="category__text">Lorem ipsum dolor sit amet.</div>
+                            <a class="details" href="#">Подробнее</a>
+                            <img src="img/industry-cat-img.png" alt="" class="category__img">
+                        </div>
+
+                        <div class="category__item">
+                            <h4 class="category__title">Для авто</h4>
+                            <div class="category__text">Lorem ipsum dolor sit amet.</div>
+                            <a class="details" href="#">Подробнее</a>
+                            <img src="img/auto-cat-img.png" alt="" class="category__img">
+                        </div>
+
+                        <div class="category__item">
+                            <h4 class="category__title">Для строек</h4>
+                            <div class="category__text">Lorem ipsum dolor sit amet.</div>
+                            <a class="details" href="#">Подробнее</a>
+                            <img src="img/const-cat-img.png" alt="" class="category__img">
+                        </div>
+                        <div class="category__item">
+                            <h4 class="category__title">Для промышленности</h4>
+                            <div class="category__text">Lorem ipsum dolor sit amet.</div>
+                            <a class="details" href="#">Подробнее</a>
+                            <img src="img/industry-cat-img.png" alt="" class="category__img">
+                        </div>
+
+                        <div class="category__item">
+                            <h4 class="category__title">Для авто</h4>
+                            <div class="category__text">Lorem ipsum dolor sit amet.</div>
+                            <a class="details" href="#">Подробнее</a>
+                            <img src="img/auto-cat-img.png" alt="" class="category__img">
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="promo">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="section__header">
+                        <div class="section__title">
+                            <i class="fas fa-bolt"><span>Товары по акции</span></i>
+                        </div>
+                        <a href="#" class="main__btn">Все товары</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="bestseller-slider">
+
+                        <div class="cards__item">
+                            <div class="wrap">
+                                <img class="cards__img" src="img/promo-img.png" alt="">
+                                <div class="cards__container">
+                                    <h5 class="cards__title">
+                                        Герметик акриловый для дерева Tiamat A-125, 300 мл. картридж
+                                    </h5>
+                                    <div class="cards__btn">Подробнее</div>
+                                    <div class="cards__price">1200 руб/шт</div>
+                                    <div class="cards__text">Доступно 13 цветов</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cards__item">
+                            <div class="wrap">
+                                <img class="cards__img" src="img/promo-img.png" alt="">
+                                <div class="cards__container">
+                                    <h5 class="cards__title">
+                                        Герметик акриловый для дерева Tiamat A-125, 300 мл. картридж
+                                    </h5>
+                                    <div class="cards__btn">Подробнее</div>
+                                    <div class="cards__price">1200 руб/шт</div>
+                                    <div class="cards__text">Доступно 13 цветов</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="cards__item">
+                            <div class="wrap">
+                                <img class="cards__img" src="img/promo-img.png" alt="">
+                                <div class="cards__container">
+                                    <h5 class="cards__title">
+                                        Герметик акриловый для дерева Tiamat A-125, 300 мл. картридж
+                                    </h5>
+                                    <div class="cards__btn">Подробнее</div>
+                                    <div class="cards__price">1200 руб/шт</div>
+                                    <div class="cards__text">Доступно 13 цветов</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="cards__item">
+                            <div class="wrap">
+                                <img class="cards__img" src="img/promo-img.png" alt="">
+                                <div class="cards__container">
+                                    <h5 class="cards__title">
+                                        Герметик акриловый для дерева Tiamat A-125, 300 мл. картридж
+                                    </h5>
+                                    <div class="cards__btn">Подробнее</div>
+                                    <div class="cards__price">1200 руб/шт</div>
+                                    <div class="cards__text">Доступно 13 цветов</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="cards__item">
+                            <div class="wrap">
+                                <img class="cards__img" src="img/promo-img.png" alt="">
+                                <div class="cards__container">
+                                    <h5 class="cards__title">
+                                        Герметик акриловый для дерева Tiamat A-125, 300 мл. картридж
+                                    </h5>
+                                    <div class="cards__btn">Подробнее</div>
+                                    <div class="cards__price">1200 руб/шт</div>
+                                    <div class="cards__text">Доступно 13 цветов</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="cards__item">
+                            <div class="wrap">
+                                <img class="cards__img" src="img/promo-img.png" alt="">
+                                <div class="cards__container">
+                                    <h5 class="cards__title">
+                                        Герметик акриловый для дерева Tiamat A-125, 300 мл. картридж
+                                    </h5>
+                                    <div class="cards__btn">Подробнее</div>
+                                    <div class="cards__price">1200 руб/шт</div>
+                                    <div class="cards__text">Доступно 13 цветов</div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="blog">
+        <div class="container">
+            <div class="section__header">
+                <div class="section__title">
+                    <i class="fas fa-book"><span>Советы (блог)</span></i>
+                </div>
+                <a href="#" class="main__btn">Все статьи</a>
+            </div>
+
+
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="category-slider">
+
+                        <a href class="cards__item">
+                            <img class="blog__img" src="img/blog-img-1.jpg" alt="">
+                            <span>Как правильно наносить герметик на влажную поверхность</span>
+                        </a>
+                        <a href class="cards__item">
+                            <img class="blog__img" src="img/blog-img-2.jpg" alt="">
+                            <span>Как правильно наносить герметик на влажную поверхность</span>
+                        </a>
+                        <a href class="cards__item">
+                            <img class="blog__img" src="img/blog-img-3.jpg" alt="">
+                            <span>Как правильно наносить герметик на влажную поверхность</span>
+                        </a>
+                        <a href class="cards__item">
+                            <img class="blog__img" src="img/blog-img-1.jpg" alt="">
+                            <span>Как правильно наносить герметик на влажную поверхность</span>
+                        </a>
+                        <a href class="cards__item">
+                            <img class="blog__img" src="img/blog-img-2.jpg" alt="">
+                            <span>Как правильно наносить герметик на влажную поверхность</span>
+                        </a>
+                        <a href class="cards__item">
+                            <img class="blog__img" src="img/blog-img-3.jpg" alt="">
+                            <span>Как правильно наносить герметик на влажную поверхность</span>
+                        </a>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="advantages">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 col-md-6">
+                    <div class="advantages__inner">
+                        <div class="advantages__icon">
+                            <img src="img/advantages-1.png" alt="">
+                        </div>
+                        <div class="advantages__content">
+                            <span class="advantages__title">Гарантия качества</span>
+                            <span class="advantages__text">Все товары в нашем каталоге имеют гарантию</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-md-6">
+                    <div class="advantages__inner">
+                        <div class="advantages__icon">
+                            <img src="img/advantages-2.png" alt="">
+                        </div>
+                        <div class="advantages__content">
+                            <span class="advantages__title">Бесплатная доставка</span>
+                            <span class="advantages__text">Бесплатная доставка по всем регионам России</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-md-6">
+                    <div class="advantages__inner">
+                        <div class="advantages__icon">
+                            <img src="img/advantages-3.png" alt="">
+                        </div>
+                        <div class="advantages__content">
+                            <span class="advantages__title">Обмен и возврат</span>
+                            <span class="advantages__text">Мы даем до 30 дней на обмен и возврат товара</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-md-6">
+                    <div class="advantages__inner">
+                        <div class="advantages__icon">
+                            <img src="img/advantages-4.png" alt="">
+                        </div>
+                        <div class="advantages__content">
+                            <span class="advantages__title">Поддержка клиентов</span>
+                            <span class="advantages__text">Мы дорожим мнением каждого клиента</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="infoblock">
+        <div class="container">
+            <div class="infoblock__title">Интернет-магазин по акриловым герметикам, клеям, наливным полам для машин,
+                строек и
+                промышленности
+            </div>
+            <div class="infoblock__suptitle">
+                Если у вас остались вопросы, специалисты магазина готовы профессионально проконсультировать по поводу
+                выбора, оплаты, доставки товаров по телефонам:
+            </div>
+            <div class="infoblock__phone"><a href="tel:+78312140614">+7 831 214 06 14</a> <a href="tel:+78312140614">+7
+                    831
+                    214 06 14</a>
+            </div>
+
+            <div class="offers">
+                <div class="offers__title">
+                    Интернет-магазин Tiamat предлагает следующие изделия:
+                </div>
+                <div class="offer__item">
+                    <i class="fas fa-caret-right"></i><b>Акриловые герметики —</b><span class="offers__text"> По своей
+                        сути рыбатекст является альтернативой традиционному lorem ipsum, который вызывает у некторых
+                        людей недоумение при попытках прочитать рыбу текст. В отличии от lorem ipsum, текст рыба на
+                        русском языке наполнит любой макет непонятным смыслом и придаст неповторимый колорит советских
+                        времен.</span>
+                </div>
+                <div class="offer__item">
+                    <i class="fas fa-caret-right"></i><b>Различные клеи </b><span class="offers__text"> идейные
+                        соображения высшего порядка, а также начало повседневной работы по формированию позиции
+                        позволяет выполнять важные задания по разработке новых предложений. </span>
+                </div>
+                <div class="offer__item">
+                    <i class="fas fa-caret-right"></i><b>Наливные полы</b><span class="offers__text"> равным образом
+                        рамки и место обучения кадров в значительной степени обуславливает создание модели развития.
+                        Разнообразный и богатый опыт постоянный количественный рост и сфера нашей активности требуют
+                        определения и уточнения форм развития. Значимость этих проблем настолько очевидна, что
+                        консультация с широким активом обеспечивает широкому кругу (специалистов) участие в формировании
+                        дальнейших направлений развития.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mailing">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-xl-4 col-lg-4 col-md-12">
+                    <div class="mailing__title">Подпишитесь на рассылку</div>
+                    <div class="mailing__suptitle">и будьте в курсе всех акций нашего магазина</div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-12">
+                    <input class="mailing__input" type="email" placeholder="Введите ваш электронный адрес">
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-12">
+                    <button class="mailing__btn">Подписаться</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-1">
+                    <img src="img/logo.png" alt="">
+                    <div class="footer__text">
+                        Равным образом постоянный количественный рост и сфера нашей активности требуют определения и
+                        уточнения позиций
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-1">
+                    <div class="footer__title">Категории магазина</div>
+                    <a href="" class="footer__link"><i class="fas fa-angle-right"></i> Акриловые герметики</a>
+                    <a href="" class="footer__link"><i class="fas fa-angle-right"></i> Клеи-герметики</a>
+                    <a href="" class="footer__link"><i class="fas fa-angle-right"></i> Наливные полы</a>
+                    <a href="" class="footer__link"><i class="fas fa-angle-right"></i> Комплектующие</a>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-1">
+                    <div class="footer__title">О компании</div>
+                    <a href="" class="footer__link"><i class="fas fa-angle-right"></i> Варианты доставки и оплаты</a>
+                    <a href="" class="footer__link"><i class="fas fa-angle-right"></i> Обмен и возврат товара</a>
+                    <a href="" class="footer__link"><i class="fas fa-angle-right"></i> Скачать прайс-лист товаров</a>
+                    <a href="" class="footer__link"><i class="fas fa-angle-right"></i> Политика конфиденциальности</a>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-1">
+                    <div class="footer__title">Контакты</div>
+                    <a href="" class="footer__link"><i class="fas fa-map-marker-alt"></i> Н.Новгород, ул.Федосеенко 41, 5</a>
+                    <a href="" class="footer__link"><i class="fas fa-phone"></i></i> +7 831 214 06 14</a>
+                    <a href="" class="footer__link"><i class="fas fa-clock"></i> Пн-Пт: с 9:00 до 18:00</a>
+                    <a href="" class="footer__link"><i class="fas fa-envelope"></i> info@tiamat.ru</a> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
+
+
+
+<!-- <div class="cards__item ">
+    <img src="img/bestseller-img.png" alt="" class="cards__img">
+    <p class="cards__title">
+        Герметик акриловый для дерева Tiamat A-125, 300 мл. картридж
+    </p>
+    <span class="cards__price">1200 руб/шт</span>
+    <span class="cards__text">Доступно 13 цветов</span>
+</div> -->
